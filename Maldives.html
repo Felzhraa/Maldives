@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Maldives</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+            <div class="sticky"> The Sunny Side Of Life! </div>
+<header>
+    <div class="main"></div>
+    
+                             <ul>
+                                 <li class="active"><a href="#">Home</a></li>
+                                 <li><a href="#">Services</a></li>
+                                 <li><a href="#">Gallery</a></li>
+                                 <li><a href="#">About</a></li>
+                                 <li><a href="#">Contact</a></li>
+                             </ul>
+                             <div class="logo">
+                                 <img src="ma.png">
+                             </div>                        
+                             
+                             <div class="title">
+          <h1>Maldives</h1>
+      </div>  
+      <div class="button">
+            <a href="#" class="btn">Booking</a>
+            <a href="#" class="btn">Hotels</a> 
+      </div>   
+
+    </header>
+   
+    <div class="backgroundtext">
+            <h3>Welcome to Maldives</h3>
+        
+            <br>
+            <br>
+        <p>Unrivalled luxury, stunning white-sand beaches and an amazing underwater 
+              world make Maldives an obvious choice for a true holiday of a lifetime.</p>
+              <div class="textwel">
+                  <p>Maldives is home to perhaps the best beaches in the world;
+                       they’re on almost every one of the country’s nearly 1200 
+                       islands and are so consistently perfect that it’s hard not to become blasé about them.
+                        While some beaches may boast softer granules than others, the basic fact remains:
+                         you won't find consistently whiter-than-white powder sand and luminous cyan-blue
+                          water like this anywhere else on earth. This fact alone is enough to bring well over
+                           a million people a year to this tiny, remote and otherwise little-known Indian Ocean paradise</p>
+              </div> 
+      </div>
+
+<div class="back">
+      <p>Top sights in Maldives</p>
+
+        <div class="slidshow">
+            <img class="mySlides" src="s1.jpg" style="width:100%">
+            
+
+            <img class="mySlides" src="s2.jpg" style="width:100%">
+           
+
+            <img class="mySlides" src="s3.jpg" style="width:100%">
+           
+            
+            <img class="mySlides" src="s4.jpg" style="width:100%">
+          </div>
+          </div>
+        
+    <footer>
+            <div class="footer">
+            <div class="icon">
+                    <p>TO CONECT WITH US</p>
+                    <a href="https://www.facebook.com"target="new"><img src="1.png"></a>
+                    <a href="https://gmail.com"target="new"><img src="2.png"></a>
+                    <a href="https://www.pinterest.com/"target="new"><img src="3.png"></a>
+                    <a href="https://tumblr.com"target="new"><img src="4.png"></a>
+                    <a href="https://twitter.com"target="new"><img src="5.png"></a>
+                    <a href="https://www.instagram.com"target="new"><img src="6.png"></a>
+                              </div>
+          </div>
+        
+        </footer>
+      </div>
+      <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2000); // Change image every 2 seconds
+            }
+            </script>
+    </body>
+</html>
